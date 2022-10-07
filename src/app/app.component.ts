@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SelectItem } from 'primeng';
+import { SelectItem } from 'primeng/api';
 
 interface City {
   name: string;
@@ -51,18 +51,18 @@ export class AppComponent {
 
   }
 
-  calculateLastYearTotal() {
+  calculateLastYearTotal = () => {
     let total = 0;
-    for(let sale of this.sales) {
+    for ( const sale of this.sales ) {
       total += sale.lastYearProfit;
     }
 
     this.lastYearTotal = total;
   }
 
-  calculateThisYearTotal() {
+  calculateThisYearTotal = () => {
     let total = 0;
-    for(let sale of this.sales) {
+    for (const sale of this.sales) {
       total += sale.thisYearProfit;
     }
 
