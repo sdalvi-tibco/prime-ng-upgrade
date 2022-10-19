@@ -23,7 +23,7 @@
     "@angular/platform-browser-dynamic": "10.2.5",
     "@angular/router": "10.2.5",
     "@fullcalendar/core": "4.4.2",
-    "@ng-bootstrap/ng-bootstrap": "6.0.3",
+    "@ng-bootstrap/ng-bootstrap": "13.1.0",
     "@ngrx/effects": "9.1.2",
     "@ngrx/store": "9.1.2",
     "@ngrx/store-devtools": "9.1.2",
